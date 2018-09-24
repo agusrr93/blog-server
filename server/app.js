@@ -14,7 +14,7 @@ app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-mongoose.connect('mongodb://localhost:27017/bloggerv2', { useNewUrlParser: true })
+mongoose.connect('mongodb://dhani:sedani89@ds257732.mlab.com:57732/ecommerce', { useNewUrlParser: true })
 
 mongoose.set('useCreateIndex', true)
 const db = mongoose.connection;
